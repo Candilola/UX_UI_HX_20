@@ -162,11 +162,8 @@ body {
 
 }
 .pic-container{
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-    min-height: fit-content;
-    margin: 1rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
     
 }
 
@@ -174,4 +171,19 @@ body {
     text-align: center;
     font-weight: 500;
     
+}
+.card{
+    margin: 2rem 3rem;
+    border: none;
+}
+.card-text{
+    color: var(--secondary);
+    text-align: center;
+    font-weight: bold;
+}
+.paneltext{
+    margin-top: 2rem;
+}
+.card-group{
+    margin-bottom: 3rem;
 }
